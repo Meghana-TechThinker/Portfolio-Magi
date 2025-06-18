@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/meghana.jpg" alt="">
+        <h1>Meghana Chirumamilla</h1>
+        <p>Computer Science Student | Software Developer</p>
+        <nav aria-label="Primary navigation">
+            <a href="#about" tabindex="0">About</a>
+            <a href="#education" tabindex="0">Education</a>
+            <a href="#skills" tabindex="0">Skills</a>
+            <a href="#projects" tabindex="0">Projects</a>
+            <a href="#contact" tabindex="0">Contact</a>
+        </nav>
+    </header>
+
+  <main class="container">
+    <section id="about" tabindex="0" aria-label="About the student">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate 4th-year Computer Science student focused on developing scalable, efficient software solutions.
+        Experienced in full-stack web development, data structures, and algorithms. Keen to learn and grow in a professional environment.
+      </p>
+    </section>
+
+    <section id="education" tabindex="0" aria-label="Education history">
+      <h2>Education</h2>
+      <ul class="education-list">
+        <li>
+          <div class="card">
+            <div class="education-school">QIS cOllege Of Engineering and Technology</div>
+            <div class="education-degree">B.Tech</div>
+            <div class="education-date">2022-2024</div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="education-school">A.P Model School and College</div>
+            <div class="education-degree">Intermediate</div>
+            <div class="education-date">2020-2022</div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="education-school">ST.Jhon's English Medium Hign School </div>
+            <div class="education-degree">SSC</div>
+            <div class="education-date">2020</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" tabindex="0" aria-label="Skill set">
+      <h2>Skills</h2>
+      <div class="skills-grid" role="list">
+        <div class="skill-item" role="listitem">Java</div>
+        <div class="skill-item" role="listitem">Python</div>
+        <div class="skill-item" role="listitem">SQL</div>
+        <div class="skill-item" role="listitem">Data Science</div>
+        <div class="skill-item" role="listitem">HTML</div>
+        <div class="skill-item" role="listitem">Basic DSA</div>
+      </div>
+    </section>
+
+    <section id="projects" tabindex="0" aria-label="Project portfolio">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card" tabindex="0">
+          <div class="project-image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVKBjb3kF3aUoOEzX6vKlrExoSxZZOOV1wDw&s" />
+          </div>
+          <div class="project-content">
+            <div class="project-title">Real Time Language Translation</div>
+            <p class="project-description">
+              Developed a web based application with a user-friendly interface that allowsfor speech and text input,a dropdown for selecting target language and output both translated text and audio,integrating real-time translation capabilities.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" aria-label="View source code for Project A">
+                <span class="material-icons" aria-hidden="true">code</span> Code
+              </a>
+              <a href="#" target="_blank" rel="noopener" aria-label="View live demo of Project A">
+                <span class="material-icons" aria-hidden="true">launch</span> Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0">
+          <div class="project-image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWh7M8ykk-5XQajVUusSS1x0HzIkYJXf8-SQ&s" />
+          </div>
+          <div class="project-content">
+            <div class="project-title">Career Guidance System</div>
+            <p class="project-description">
+              Developed an intelligent web application assist users in identifying  and planning their career paths through structured and personalized learning roadmaps.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" aria-label="View source code for Project B">
+                <span class="material-icons" aria-hidden="true">code</span> Code
+              </a>
+              <a href="#" target="_blank" rel="noopener" aria-label="View live demo of Project B">
+                <span class="material-icons" aria-hidden="true">launch</span> Demo
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" tabindex="0" aria-label="Contact information">
+      <h2>Contact</h2>
+      <p>
+        I am open to internship opportunities and collaboration. Feel free to reach out!
+      </p>
+      <div class="contact-links">
+        <a href="chowdarymeghana17@gmail.com" class="contact-link" aria-label="Send email to Jane Doe">
+          <span class="material-icons" aria-hidden="true">email</span> chowdarymeghana17@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/janedoe" target="_blank" rel="noopener" class="contact-link" aria-label="Jane Doe LinkedIn Profile">
+          <span class="material-icons" aria-hidden="true">linkedin</span> LinkedIn
+        </a>
+        <a href="https://github.com/Meghana-TechThinker" target="_blank" rel="noopener" class="contact-link" aria-label="Jane Doe GitHub Profile">
+          <span class="material-icons" aria-hidden="true">code</span> GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
